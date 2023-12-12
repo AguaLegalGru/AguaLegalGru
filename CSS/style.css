@@ -88,6 +88,34 @@ section .content p {
     color: var(--gray-paragraph);
 }
 
+.button {
+  background-color: var(--brand3);
+  /*border: none;*/
+  border-color: var(--bg-menu);
+  border-radius: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.6rem 3.2rem;
+  width: fit-content;
+  color: var(--bg-menu);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  text-decoration: none;
+  transition: background 200ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--bg-menu);
+  border-color: var(--brand3);
+  color: white;
+}
+
 /*=== CUSTOM COLORS ========================================*/
 /*#services .card circle {
     fill: var(--brand-light);
