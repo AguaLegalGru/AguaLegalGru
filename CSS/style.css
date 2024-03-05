@@ -385,6 +385,25 @@ body.menu-expanded .close-menu path {
     margin-bottom: 3.2rem;
 }
 
+#gallery .content p {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+#gallery .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gallery a {
+  align-self: center;
+}
+
+#gallery .col-b {
+  display: none;
+}
+
 /*=== FOOTER ========================================*/
 footer {
     background-color: var(--bg-window);
@@ -664,12 +683,26 @@ footer p {
   /*** GALLERY ***/
 
   #gallery .wrapper {
-    grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: "A A" "B B";
-    gap: 14.1rem;
+    grid-template-columns: 1fr 48rem;
+    grid-template-areas: "A B";
+    gap: 6.7rem;
   }
 
   #gallery .col-a {
+    align-self: center;
+  }
+
+  #gallery .col-b {
+    display: block;
+  }
+
+  #gallery .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #gallery a {
     align-self: center;
   }
 

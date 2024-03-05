@@ -158,3 +158,17 @@ a:hover rect {
     height: 31.5rem;
   }
 }
+
+/*Responsivo*/
+/*480PX BREAKPOINT*/
+@media (min-width:30em){
+  #vlightbox1 #lightbox-responsiva { width:47.5%; float:left; }
+  }
+  /*768PX BREAKPOINT*/
+  @media (min-width:48em){
+  #vlightbox1 #lightbox-responsiva { width:31.8%; }
+  } 
+  /*1280PX BREAKPOINT*/
+  @media (min-width:80em){
+  #vlightbox1 #lightbox-responsiva { width:23.6%; }
+  }
