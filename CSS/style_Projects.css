@@ -69,6 +69,11 @@ a:hover rect {
     fill: var(--bg-menu);
 }
 
+#contact .content p{
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+
 /*=== REGISTER ========================================*/
 #register {
     text-align: center;
