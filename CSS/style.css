@@ -88,6 +88,10 @@ section .content p {
     color: var(--gray-paragraph);
 }
 
+#register .colorParagrafe {
+  color: red;
+}
+
 .button {
   background-color: var(--brand3);
   /*border: none;*/
@@ -334,7 +338,6 @@ body.menu-expanded .close-menu path {
     width: 26.4rem;
     display: block;
     margin-inline: auto;
-    object-position: 0 2rem;
 }
 
 /*=== PROJECTS ========================================*/
